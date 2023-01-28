@@ -1,5 +1,4 @@
-<html>
-    <body>
-        welcome <?php echo $_POST["n1"];?>
-</body>
-</html>
+<?php
+$details = array("name"=>"aditya","os"=>"ubuntu","city"=>"kakinada");
+echo json_encode($details);
+?>
